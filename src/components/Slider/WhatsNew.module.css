@@ -1,0 +1,55 @@
+.parentContainer {
+  /* margin-top: 0.5rem; */
+  margin-left: 5.5%;
+  width: 88%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.arrowBtn {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5%;
+  padding: 0.4rem;
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
+.imageLogo {
+  width: 220px;
+  height: 160px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 481px) {
+  .parentContainer {
+    margin-left: 2%;
+    width: 97%;
+    padding: 0rem 0.2rem;
+  }
+  .arrowBtn {
+    display: none;
+  }
+  .container {
+    display: flex;
+    gap: 2.5%;
+    padding: 0.2rem;
+    overflow-x: scroll;
+  }
+  .imageLogo {
+    width: 105px;
+    height: 105px;
+    cursor: pointer;
+  }
+}
